@@ -1,0 +1,60 @@
+html{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+img{
+    width: 100px;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+img:hover{
+    border: 2px solid white;
+    width: 98px;
+    border-radius: 10px;
+}
+.contanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+   
+}
+.choose{
+    display: flex;
+    gap: 10px;
+}
+
+img[alt="addprofile"]:hover{
+    background-color: white;
+    width: 98px;
+    border-radius: 10px;
+}
+
+span{
+   display: block;
+   text-align: center;
+   color: gray;
+   border: 1px solid grey;
+   margin-top: 20px;
+   width: 150px;
+   height: 25px;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+span:hover{
+    border: 1px solid white;
+    color: white;
+}
+a{
+    text-decoration-line: none;
+}
+ 
